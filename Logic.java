@@ -1,9 +1,7 @@
 import java.util.Scanner;
 public class Logic {
-	Boolean result = false;
 	String inputtype;
 	Boolean a,b;
-	
 	public static void main(String[] args){
 		Logic construct = new Logic();
 		Scanner inp = new Scanner(System.in);
