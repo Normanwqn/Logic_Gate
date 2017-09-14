@@ -9,7 +9,7 @@ public class Logic {
 		Scanner inp = new Scanner(System.in);
 		//Explanation
 		System.out.println("This programme is intended to demostrate how logic gate works.");
-		System.out.println("Pleaes select the type of gate you desire. (AND, OR, NOT, NAND, NOR, EXOR and EXNOR)");
+		System.out.println("Pleaes select the type of gate you desire. (AND, OR, NOT, NAND, NOR, XOR and XNOR)");
 		construct.inputtype = inp.nextLine();
 		//https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java
 		if (! construct.inputtype.equals("NOT"))
